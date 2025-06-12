@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages --branch gh-pages --repo https://github.com/fuga296/sample-apps.git --dist dist --dest sample-apps/todo"
+    "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/fuga296/sample-apps.git --dest todo"
   },
   "dependencies": {
     "react": "^19.1.0",
